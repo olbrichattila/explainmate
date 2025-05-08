@@ -1,0 +1,7 @@
+Implement Browser Context Helper Extension
+
+- Build a Chrome extension that allows users to highlight text on a webpage and select “Explain” to generate a detailed explanation.
+- Develop a Golang backend that communicates with AWS Bedrock for generating explanations.
+- Ensure the backend retrieves AWS security keys from OS environment variables.
+- Host the backend on a server (e.g., Amazon EC2 or DigitalOcean droplet).
+- Allow users to configure the API endpoint via the extension's settings page.
