@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Browser Context Helper Options</title>
+  <style>
+    body {
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+    
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .logo {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-radius: 6px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    
+    .description {
+      margin-top: 5px;
+      font-size: 13px;
+      color: #666;
+    }
+    
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    button {
+      padding: 10px 16px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.2s;
+    }
+    
+    button:hover {
+      background-color: #3367d6;
+    }
+    
+    button.secondary {
+      background-color: #f1f1f1;
+      color: #333;
+    }
+    
+    button.secondary:hover {
+      background-color: #e1e1e1;
+    }
+    
+    button.danger {
+      background-color: #f44336;
+    }
+    
+    button.danger:hover {
+      background-color: #d32f2f;
+    }
+    
+    .status {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 4px;
+      display: none;
+    }
+    
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+    }
+    
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+    
+    .info-section {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #e8f4fd;
+      border-radius: 6px;
+    }
+    
+    .info-section h2 {
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .info-section p {
+      margin: 0 0 10px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">🧠</div>
+    <h1>Browser Context Helper Options</h1>
+  </div>
+  
+  <div class="form-group">
+    <label for="api-endpoint">API Endpoint:</label>
+    <input type="text" id="api-endpoint" placeholder="http://localhost:8080/api/explain">
+    <p class="description">Enter the URL of your backend API server.</p>
+  </div>
+  
+  <div class="button-container">
+    <div>
+      <button id="save-button">Save Settings</button>
+      <button id="test-button" class="secondary">Test Connection</button>
+    </div>
+    <button id="reset-button" class="danger">Reset to Default</button>
+  </div>
+  
+  <div id="status" class="status"></div>
+  <div id="connection-status" class="status"></div>
+  
+  <div class="info-section">
+    <h2>Setup Information</h2>
+    <p>Make sure your backend server is running and accessible from your browser.</p>
+    <p>The default endpoint is <code>http://localhost:8080/api/explain</code> which works when running the backend locally.</p>
+    <p>If you're hosting the backend on a server, use the full URL including the protocol (http:// or https://).</p>
+  </div>
+  
+  <script src="options.js"></script>
+</body>
+</html>
