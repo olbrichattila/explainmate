@@ -12,7 +12,11 @@ This project represents a novel use of Amazon Q Developer because it was built e
 <!-- We highly recommend sharing a link to your deployed project. If that’s not possible, include a video demo or clear screenshots to showcase functionality. -->
 📽️ Video Demo
 🧪 Live Project / Extension Download (if available)
-(Screenshots or links to the browser extension if hosted would go here.)
+
+
+## Screenshot
+
+![https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png](https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png)
 
 ## Code Repository
 <!-- Please embed or link your public code repository (e.g., GitHub) so others can explore your project. -->
@@ -48,6 +52,11 @@ Implement Browser Context Helper Extension
 - Host the backend on a server (e.g., Amazon EC2 or DigitalOcean droplet).
 - Allow users to configure the API endpoint via the extension's settings page.
 ```
+
+----
+![https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png](https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png)
+
+--
 
 
 ## Conversation with Q Developer
