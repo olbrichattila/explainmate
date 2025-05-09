@@ -10,7 +10,7 @@ This project represents a novel use of Amazon Q Developer because it was built e
 
 ## Demo
 <!-- We highly recommend sharing a link to your deployed project. If that’s not possible, include a video demo or clear screenshots to showcase functionality. -->
-📽️ Video Demo:
+📽️ Video Demo – AI Voiceover Included
 
 [https://youtu.be/d9OXnjJzrzA](https://youtu.be/d9OXnjJzrzA)
 
