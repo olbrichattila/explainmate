@@ -53,13 +53,30 @@ Implement Browser Context Helper Extension
 - Allow users to configure the API endpoint via the extension's settings page.
 ```
 
-----
-![https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png](https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png)
-
---
+---
 
 
 ## Conversation with Q Developer
+
+![https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png](https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/s1.png)
+
+
+---
+
+![https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png](https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/s2.png)
+
+
+---
+
+![https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png](https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/s3.png)
+
+
+---
+
+![https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/explain.png](https://raw.githubusercontent.com/olbrichattila/explainmate/refs/heads/main/screenshots/s4.png)
+
+
+## Full conversation
 
 ```text
 can you put together this project from my todo.txt here?
