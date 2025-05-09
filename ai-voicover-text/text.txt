@@ -1,0 +1,31 @@
+Hi! I’ve created ExplainMate — a tool that helps explain content directly from the web.
+The backend is written in Go, using Amazon Bedrock for AI capabilities, and the frontend is built with JavaScript. You can install it right into your browser.
+
+
+Let me show you how it works with a few examples.
+
+
+First, let’s try it out with some Amazon Web Services. I’m already logged into the AWS Console.
+
+I’ll start by selecting Amazon Bedrock, right-clicking, and choosing “Explain with AI.”
+
+
+Now, let’s see how ExplainMate explains EC2.
+
+
+How about AWS Outposts?
+
+
+And here’s Amazon Simple Notification Service, or SNS.
+
+Now, let’s switch context and explore some of the content from my personal blog.
+
+This article is about a dependency injection container I built in Go.
+
+Let’s try something else.
+
+
+Here’s a project where I created a multi-threaded CSV importer. I included some stats to show the massive speed improvements we can achieve using techniques like batch inserts, transactions, and parallel database connections. Let’s see how ExplainMate handles this one.
+
+
+That’s it for now — thanks for watching, and see you in the next video!
